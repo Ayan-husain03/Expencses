@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grey+Qo&family=Mooli&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", system-ui;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.form-container{
+    max-width: 350px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.form-container input{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.2rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+.form-container button{
+    padding: 5px 30px;
+    border: 0;
+    margin-top: 5px;
+    background-color: #C5705D;
+    color: #F8EDE3;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.details-container{
+    letter-spacing: 2px;
+}
+.product-container {
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 350px;
+    padding: 10px 20px;
+    /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.2); */
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.mydiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.total-price{
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 350px;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2),-1px -1px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
